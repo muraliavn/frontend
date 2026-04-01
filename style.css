@@ -1,0 +1,90 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+a{
+
+}
+#maincontainer{
+    width: 90vw;
+    height: 100vh;
+    background-color:#f0f0f0;  
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+.innerbox{
+    width: 400px;
+    height: 350px;
+    background-color:#ffffff;
+    /* float: left; */ - Not Required this line
+    color:black;
+    text-align: center;
+    border: 5px solid #ffcd11;
+    padding: 5px;
+}
+.innerbox:hover{
+    background-color: #ffcd11;
+    border-bottom: 5px solid rgb(255, 255, 255);
+}
+#banner{
+    width: 90%;
+    height: 400px;
+    margin: auto;
+    color: #ffffff;
+    background-image:url('https://ik.imagekit.io/y4oa5i1ao/bg-pattern.png');
+    background-repeat: repeat;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+#nav{481730
+    width: 100vw;
+    height: 50px;    
+    margin: auto;
+    display: flex;
+    flex-wrap:wrap ;
+    justify-content: center;
+    gap: 10px;
+    margin: 10px;
+}
+
+#nav a{
+    padding: 10px;
+    background: #ffcd11;
+    text-decoration: none;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 16px;
+    font-weight: 400;    
+}
+
+.active, #nav a:hover{
+    /* padding: 10px;
+    background: #ffcd11;
+    text-decoration: none; */
+    border-bottom: 3px solid red;
+    font-size: 16px;
+    font-weight: 900;    
+}
+
+/* #nav a:active{
+    border-bottom: 3px solid red;
+    font-size: 16px;
+    font-weight: 900; 
+
+} */
+
+#about{
+    width: 90vw;
+    height: 40vh;
+    margin: auto;
+    color: black;
+}
+#about p{
+    text-align: left;
+    font-size: 20px;
+}
